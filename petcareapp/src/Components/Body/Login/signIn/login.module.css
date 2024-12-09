@@ -1,0 +1,215 @@
+.big-logo {
+    position: absolute;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100% !important;
+}
+.login-form-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.name {
+    font-size: 33px;
+    color: #4b5175;
+}
+.wrapper img {
+    width: 50%;
+}
+
+.sign-in {
+    margin-top: 20px;
+}
+.sign-in h4 {
+    color: #000;
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 130%;
+    text-align: center;
+}
+.sign-in p {
+    color: #8a92a6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin: 16px 0 25px 0;
+}
+.sign-in-frame {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 150%;
+}
+.show-icon {
+    width: 22px;
+    padding: 2px;
+}
+.email-container {
+}
+.email,
+.password {
+    color: #8a92a6;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    line-height: 30px;
+}
+.email-input,
+.password-input {
+    display: flex;
+    width: 436px;
+    height: 44px;
+    font-size: 16px;
+    align-items: center;
+    gap: 227px;
+    background-color: #fff;
+}
+
+.email-container, .password-container {
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #fd7e14;
+}
+
+.show-icon {
+    width: 22px;
+    padding: 2px;
+}
+.show-icon:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remember-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.remember-container input {
+    cursor: pointer;
+}
+.question {
+    color: #8a92a6;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.forgot {
+    color: #fd7e14;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* .sign-in-button {
+    width: 40%;
+    margin-top: 24px;
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #fd7e14;
+    border-color: transparent;
+
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+.sign-in-button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+} */
+
+.other-account-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.other-account-container > p {
+    color: #232d42;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.other-account {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.google:hover,
+.facebook:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.do-not-have-account {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.do-not-have-account p:first-child,
+.do-not-have-account p:last-child {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.do-not-have-account p {
+    color: #232d42;
+}
+.to-sign-up-page {
+    color: #fd7e14;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.to-sign-up-page:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.bg-img {
+    overflow: hidden;
+}

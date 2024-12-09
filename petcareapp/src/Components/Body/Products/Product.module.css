@@ -1,0 +1,117 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+    margin-top: 80px;
+}
+
+.product-card {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0px 0px 69.765px 0px rgba(172, 187, 201, 0.42);
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+    text-decoration: none;
+}
+.product-card:hover {
+    transform: scale(1.03);
+    background-color: transparent;
+}
+.product-img {
+    width: 100%;
+    height: 300px;
+    align-self: stretch;
+    /* background: var(--orange-orange-400, #fd9843); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.product-img img {
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    object-position: center;
+}
+.product-name {
+    color: #4c5276;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 24px;
+}
+.product-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.price-after {
+    color: #ef603d;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43.065px;
+}
+.price-before {
+    color: var(--neutral-500, #adb5bd);
+    font-family: Poppins;
+    font-size: 17.226px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43.065px;
+    text-decoration-line: line-through;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.reviews {
+    color: var(--neutral-500, #adb5bd);
+    font-family: Poppins;
+    font-size: 10.336px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43.065px;
+}
+.add-to-cart {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 17.226px;
+    border-radius: 10.336px;
+    background: var(--Primary, #fd7e14);
+    box-shadow: 0px 20.671px 41.342px 5.168px rgba(253, 89, 86, 0.08),
+        0px 10.336px 20.671px 5.168px rgba(253, 89, 86, 0.08);
+    border-color: transparent;
+
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.add-to-cart:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
